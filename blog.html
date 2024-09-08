@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog - Diya Adhikari</title>
+
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #f3f4f6;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        line-height: 1.8;
+    }
+
+    header {
+        background-color: #242424;
+        color: #ffffff;
+        padding: 20px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .logo {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #ffffff;
+        letter-spacing: 1px;
+        transition: color 0.3s ease;
+    }
+
+    nav ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    nav ul li {
+        margin: 0 20px;
+    }
+
+    nav ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 1rem;
+        transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    nav ul li a:hover {
+        color: #4a90e2;
+        transform: translateY(-3px);
+    }
+
+    .header-content {
+        text-align: center;
+        margin: 120px 0 40px;
+    }
+
+    .header-content h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .header-content p {
+        font-size: 1.5rem;
+        color: #555;
+    }
+
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+
+    .blog-posts {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .blog-posts article {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .blog-posts article h2 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .blog-posts article p {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        color: #555;
+    }
+
+    .read-more {
+        display: inline-block;
+        background-color: #4a90e2;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        transition: background-color 0.3s ease;
+    }
+
+    .read-more:hover {
+        background-color: #357abd;
+    }
+
+    footer {
+        background-color: #242424;
+        color: #ffffff;
+        text-align: center;
+        padding: 20px;
+        margin-top: 60px;
+        font-size: 0.9rem;
+        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+    }
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Diya Adhikari</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="header-content">
+        <h1>Welcome to My Blog</h1>
+        <p>Sharing thoughts, stories, and ideas</p>
+    </div>
+
+    <main>
+        <section class="blog-posts">
+            <article>
+                <h2>Christmas Magic</h2>
+                <p>Christmas is more than just a date on the calendar; it’s a feeling...</p>
+                <a href="christmas-magic.html" class="read-more">Read More</a>
+            </article>
+
+            <article>
+                <h2>The Importance of Mental Health</h2>
+                <p>In today's fast-paced world, maintaining mental well-being is more crucial...</p>
+                <a href="mental-health.html" class="read-more">Read More</a>
+            </article>
+
+            <article>
+                <h2>Passion in Music</h2>
+                <p>Passion in music is more than just a love for melodies and rhythms...</p>
+                <a href="music.html" class="read-more">Read More</a>
+            </article>
+
+            <article>
+                <h2> The Art of Maintaining Friendships: Simple Tips for Lasting Bonds</h2>
+                <p>Friendships are invaluable, offering support, joy...</p>
+                <a href="friends.html" class="read-more"> Read More</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Diya Adhikari. All rights reserved.</p>
+    </footer>
+</body>
+</html>
